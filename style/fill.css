@@ -71,6 +71,17 @@ main .main-form .head .input button{
     background-color: rgb(0, 149, 255);
     border: none;
     color: white;
+    transform: scale(1.2);
 }
 
+main .main-form .head .input button p{
+    transform: scale(3);
+}
 
+main .main-form .mensage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
