@@ -55,11 +55,19 @@ main .main-form .head .input{
     margin-top: 20px;
 }
 
+main .main-form .input .content-input{
+    width: 90vw;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 main .main-form .head .input input{
+    width: 85%;
     background-color: transparent;
     border: none;
     outline: none;
-    width: 400px;
     margin-left: 10px;
 }
 
@@ -84,4 +92,48 @@ main .main-form .mensage{
     align-items: center;
     justify-content: center;
     margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main .main-form .list{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+main .main-form .list .item{
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+main .main-form .list .item .text_item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .main-form .list .item button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+main .main-form .list .item button img{
+    width: 25px;
+    transition: 300ms;
+}
+
+main .main-form .list .item button img:hover{
+    transform: scale(1.2);
+    transition: 300ms
 }
